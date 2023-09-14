@@ -1,0 +1,11 @@
+<a href="" class="card__container">
+  <img src="{{ cardProps.cardImage }}" class="card__img" alt="">
+  <app-card-label
+    [cardLabel]="cardProps.cardLabel"
+  ></app-card-label>
+  <app-card-pricing
+    [cardPricingTitle] = "cardProps.cardPricingTitle"
+    [cardPricingConsole] = "cardProps.cardPricingConsole"
+    [cardPricingPrice] = "cardProps.cardPricingPrice"
+  ></app-card-pricing>
+</a>

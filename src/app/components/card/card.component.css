@@ -1,0 +1,24 @@
+.card__container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  border-radius: .2rem;
+  overflow: hidden;
+  color: #fff;
+}
+
+.card__container:hover img {
+  transform: scale(1.3);
+
+}
+
+.card__img {
+  min-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  transition-timing-function: ease-out;
+  transition-duration: .3s;
+}
+
+

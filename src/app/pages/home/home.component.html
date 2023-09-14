@@ -1,0 +1,10 @@
+<app-menu-bar
+  [menuBarLogo]="'assets/ps-logo.png'"
+  [menuBarLink]="menuBarLink"
+>
+</app-menu-bar>
+<main class="home__card_container">
+  <app-card *ngFor="let card of cardList"
+    [cardProps]="card"
+  ></app-card>
+</main>

@@ -1,0 +1,16 @@
+<div class="menu_bar__container">
+  <header>
+    <div class="menu_bar__logo">
+      <img src="{{ menuBarLogo }}" alt="">
+    </div>
+    <nav>
+      <ul>
+        <app-menu-bar-link *ngFor="let link of menuBarLink"
+          [menuBarUrl]="link.url"
+          [menuBarDescription]="link.description"
+        >
+        </app-menu-bar-link>
+      </ul>
+    </nav>
+  </header>
+</div>

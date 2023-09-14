@@ -1,0 +1,36 @@
+.menu_bar__container {
+  display: flex;
+  align-items: center ;
+  width: 100%;
+  padding: 1rem;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 1rem .5rem rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 0 1rem .5rem rgba(0, 0, 0, .2);
+  box-shadow: 0 0 1rem .5rem rgba(0, 0, 0, .2);
+}
+
+header {
+  display: flex;
+  margin: auto;
+  width: 992px;
+  position: relative;
+  justify-content:space-between;
+}
+
+.menu_bar__logo {
+  height: 2rem;
+  overflow: hidden;
+}
+
+.menu_bar__logo > img {
+  height: 100%;
+  object-fit: contain;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: .5rem;
+}
+
+
